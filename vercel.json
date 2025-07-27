@@ -1,10 +1,5 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "api/handler" }
-  ],
-  "functions": {
-    "app/api/**/*": {
-      "maxDuration": 300 
-    }
-  }
+    { "source": "/(.*)", "destination": "api/handler","maxDuration": 300 }
+  ]
 }

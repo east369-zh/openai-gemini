@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/**/*.ts": {"maxDuration": 300}
+    "api/handler/**/*.ts": {"maxDuration": 300}
   },
   "rewrites": [
     { "source": "/(.*)", "destination": "api/handler" }
